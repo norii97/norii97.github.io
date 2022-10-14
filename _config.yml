@@ -20,7 +20,7 @@ title                    : "NORI"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "NO"
-description              : ""
+description              : "뇌장하드"
 url                      : "https://norii97.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
