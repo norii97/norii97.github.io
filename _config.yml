@@ -106,7 +106,7 @@ analytics:
 author:
   name             : "No"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Personal Library"
+  bio              : ""
   location         : "South Korea"
   email            :
   links:
