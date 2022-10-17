@@ -18,9 +18,9 @@ docs:
   - title: "Project"
     children:
       - title: "Art-box"
-        url: /categories/Art-box
+        url: /categories/Art box
       - title: "Pick-me"
-        url: /categories/Pick-me
+        url: /categories/Pick me
 
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
