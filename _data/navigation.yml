@@ -8,17 +8,18 @@ main:
     url: /search/
 
 docs:
-  - title: "대목차1"
+  - title: "gogo1"
     children:
       - title: "Category"
         url: /categories/
       - title: "Tag"
         url: /tags/
-  - title: "대목차2"
+
+  - title: "Project"
     children:
-      - title: "Category"
+      - title: "Art-box"
         url: /categories/
-      - title: "Tag"
+      - title: "Pick-me"
         url: /tags/
 
   # - title: "About"
