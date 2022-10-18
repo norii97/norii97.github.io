@@ -7,20 +7,20 @@ main:
   - title: "Search"
     url: /search/
 
-docs:
-  - title: "gogo1"
-    children:
-      - title: "Category"
-        url: /categories/
-      - title: "Tag"
-        url: /tags/
+# docs:
+#   - title: "gogo1"
+#     children:
+#       - title: "Category"
+#         url: /categories/
+#       - title: "Tag"
+#         url: /tags/
 
-  - title: "Project"
-    children:
-      - title: "Art-box"
-        url: /categories/Art box
-      - title: "Pick-me"
-        url: /categories/Pick me
+#   - title: "Project"
+#     children:
+#       - title: "Art-box"
+#         url: /categories/Art box/
+#       - title: "Pick-me"
+#         url: /categories/Pickme/
 
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
