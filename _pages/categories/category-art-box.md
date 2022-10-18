@@ -1,12 +1,13 @@
 
 ---
 title: "Art box"
+permalink: categories/art-box
 layout: archive
-permalink: categories/Art box
 author_profile: true
 sidebar_main: true
 ---
 
 
-{% assign posts = site.categories['Art box'] %}
+
+{% assign posts = site.categories["Art box"] %}
 {% for post in posts %} {% include archive-single2.html type=page.entries_layout %} {% endfor %}

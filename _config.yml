@@ -19,7 +19,7 @@ locale                   : "ko-KR"
 title                    : "NORI"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "NO"
+name                     : "SangSun NO"
 description              : "뇌장하드"
 url                      : "https://github.com/sangsunNo"
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -106,9 +106,9 @@ analytics:
 author:
   name             : "No"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : ""
+  bio              : "뇌장하드"
   location         : "South Korea"
-  email            :
+  email            : 
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -272,3 +272,15 @@ defaults:
       show_date: true
       date_format: "%Y-%m-%d"
       sidebar_main: true
+
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+      read_time: false
+      comments: false
+      share: true
+      related: false
