@@ -13,6 +13,8 @@ date: 2022-10-18
 last_modified_at: 2022-10-19
 ---
 
+**Link :** [Art box - Gallery](http://118.67.142.110:8000/show_data "Art box - Gallery"){:target="_blank"}  
+
 ### - 계획
 ---
 
@@ -123,3 +125,5 @@ last_modified_at: 2022-10-19
 >>> - 3번 for 문  
 >>>대분류의 연대, 소분류의 시대에 해당하는 작품들 출력   
 >>> - 작품 클릭 시 - 상세 정보 출력
+
+**Link :** [Art box - Gallery](http://118.67.142.110:8000/show_data "Art box - Gallery"){:target="_blank"}  
