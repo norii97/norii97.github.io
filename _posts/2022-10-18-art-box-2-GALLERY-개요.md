@@ -3,7 +3,7 @@ layout: single
 title:  "Art box - 2. GALLERY 개요"
 categories: 
     - Art box
-tag: [Node.js, Front-end, EJS, JS, JQ]
+tag: [Node.js, Front-end, EJS, JS, JQ, SweetAlert2]
 toc: true
 toc_sticky : true
 author_profile: true
@@ -124,6 +124,6 @@ last_modified_at: 2022-10-19
 >> 소분류 {key: 시대 - value: 작품 리스트} - 시대 출력  
 >>> - 3번 for 문  
 >>>대분류의 연대, 소분류의 시대에 해당하는 작품들 출력   
->>> - 작품 클릭 시 - 상세 정보 출력
+>>> - 작품 클릭 시 - 사진 확대, 작품 설명 출력
 
 **Link :** [Art box - Gallery](http://118.67.142.110:8000/show_data "Art box - Gallery"){:target="_blank"}  
