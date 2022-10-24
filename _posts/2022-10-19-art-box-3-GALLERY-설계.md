@@ -1,5 +1,4 @@
 ---
-layout: single
 title:  "Art box - 3. GALLERY 설계"
 categories: 
     - Art box

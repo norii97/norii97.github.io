@@ -1,5 +1,4 @@
 ---
-layout: single
 title:  "Art box - 2. GALLERY 개요"
 categories: 
     - Art box
