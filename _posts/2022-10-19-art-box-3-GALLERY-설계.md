@@ -15,7 +15,8 @@ last_modified_at: 2022-10-21
 
 **Link :** [Art box - Gallery](http://118.67.142.110:8000/show_data "Art box - Gallery"){:target="_blank"}  
 
-### 순서
+### 개요
+#### 순서
 
 1. 작품 출력 <a class="header-link" href="#작품-출력" title="Permalink"><span class="sr-only">Permalink</span><i class="fas fa-link"></i></a>
 > - 1줄에 3개 씩 반복 출력<a class="header-link" href="#1줄에-3개-씩-반복-출력" title="Permalink"><span class="sr-only">Permalink</span><i class="fas fa-link"></i></a>
@@ -25,12 +26,12 @@ last_modified_at: 2022-10-21
 >> - 네브바 fadein/fadeout <a class="header-link" href="#네브바-fadeinfadeout" title="Permalink"><span class="sr-only">Permalink</span><i class="fas fa-link"></i></a>
 2. 사이드바 ( Bootstrap - scrollspy ) <a class="header-link" href="#사이드바--bootstrap---scrollspy-" title="Permalink"><span class="sr-only">Permalink</span><i class="fas fa-link"></i></a>
 > - 작품과 시대 매칭 <a class="header-link" href="#작품과-시대-매칭" title="Permalink"><span class="sr-only">Permalink</span><i class="fas fa-link"></i></a>
-> - 시대 클릭시 해당 작품으로 이동 <a class="header-link" href="#시대-클릭시-해당-작품으로-이동" title="Permalink"><span class="sr-only">Permalink</span><i class="fas fa-link"></i></a>
+> - 시대 클릭 시 해당 작품으로 이동 <a class="header-link" href="#시대-클릭 시-해당-작품으로-이동" title="Permalink"><span class="sr-only">Permalink</span><i class="fas fa-link"></i></a>
 > - 해당 시대에 맞게 스크롤 바 상하 이동 <a class="header-link" href="#해당-시대에-맞게-스크롤-바-상하-이동" title="Permalink"><span class="sr-only">Permalink</span><i class="fas fa-link"></i></a>
 
 ---
 
-### 구조
+#### 구조
 > - 작품이 출력되는 공간  
 >> 열 ( ROW )  
 >>> 열 3 등분  
@@ -52,7 +53,7 @@ last_modified_at: 2022-10-21
 
 #### 1줄에 3개 씩 반복 출력
 
-출력이 되어야 할 착품의 갯 수 = art_list.length  
+출력이 되어야 할 착품의 개수 = art_list.length  
 현재 출력이 완료된 작품수 = art_count
 
 반복문과 조건문을 통해 모든 작품이 출력 될 때 까지
@@ -82,9 +83,7 @@ last_modified_at: 2022-10-21
 
 <br>
 
-
 ![print3](/videos/div3.gif)
-
 
 ---
 
@@ -110,6 +109,7 @@ function sweet_alert(get_pic_src) {
     })
 }
 ```
+
 </details>
 
 ---
@@ -144,6 +144,10 @@ function nav_fade(){
 ```
 </details>
 
+<br/>
+
+![print3](/videos/sweetalert2.gif)
+
 ---
 
 ### 사이드바 ( Bootstrap - scrollspy )
@@ -151,7 +155,7 @@ function nav_fade(){
 ---
 
 ##### 작품과 시대 매칭
-##### 시대 클릭시 해당 작품으로 이동
+##### 시대 클릭 시 해당 작품으로 이동
 
 <br/>
 
@@ -198,12 +202,17 @@ id를 타겟팅 해 주면 자동으로 작동 하였다.
 ```
 </details>
 
+<br/>
+
+![print3](/videos/scrollspy1.gif)
+
 ---
 
 ##### 해당 시대에 맞게 스크롤 바 상하 이동
 
-&nbsp; 현재 화면의 위치해 있는 시대에 맞춰 scrollspy의 시대가 이동은 하지만 스크롤을 해주지는 않아 시대가 보이지 않는 경우가 있다.
-&nbsp; 이를 해결하기 위해 **현재 화면의 위치/전체화면의 크기** 를 통해
+&nbsp; 현재 화면의 위치해 있는 시대에 맞춰 scrollspy의 시대가 이동은 하지만 스크롤을 해주지는 않아 시대가 보이지 않는 경우가 있다.  
+&nbsp; 이를 해결하기 위해 **현재 화면의 눂이/전체화면의 높이** 를 통해 퍼센테이지를 구하고 scrollspy의 스크롤 위치를 퍼센테이지에 맞춰 주면 해결이 될 거라 생각을 했지만 scroll 이벤트가 중복 발생 할 경우 동기처리 때문인지 확실하지는 않지만 제대로 작동하지 않는 경우 발생.  
+&nbsp; 이를 해결하기 위해 나온 방법으로 scrollspy 내부 컨텐츠의 양이 많지 않기 때문에 **현재 화면의 눂이/전체화면의 높이** 가 50% 를 기점으로 scrollspy의 스크롤을 최하단 최상단으로 옮겨주는 것으로 해결 하였다.
 
 <details markdown="1">
   <summary>📝 코드</summary>
@@ -221,7 +230,6 @@ window.addEventListener("scroll", (event) => {
         check_scrollbar = 1;
     }
 
-
     if (check_scrollbar != save_result){
         setTimeout(function() {
             if (check_scrollbar == 0){
@@ -236,6 +244,10 @@ window.addEventListener("scroll", (event) => {
 });
 ```
 </details>
+
+<br/>
+
+![print3](/videos/scrollspy2.gif)
 
 ---
 
