@@ -1,7 +1,7 @@
 ---
 title: "Pick me"
 layout: archive
-permalink: /categories/Pickme
+permalink: /categories/pickme
 author_profile: true
 sidebar_main: true
 ---
