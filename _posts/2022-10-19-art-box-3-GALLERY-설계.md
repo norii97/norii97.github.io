@@ -10,7 +10,7 @@ author_profile: true
 sidebar:
     nav: "docs"
 date: 2022-10-19
-last_modified_at: 2022-10-19
+last_modified_at: 2022-10-21
 ---
 
 **Link :** [Art box - Gallery](http://118.67.142.110:8000/show_data "Art box - Gallery"){:target="_blank"}  
@@ -202,7 +202,8 @@ id를 타겟팅 해 주면 자동으로 작동 하였다.
 
 ##### 해당 시대에 맞게 스크롤 바 상하 이동
 
-
+&nbsp; 현재 화면의 위치해 있는 시대에 맞춰 scrollspy의 시대가 이동은 하지만 스크롤을 해주지는 않아 시대가 보이지 않는 경우가 있다.
+&nbsp; 이를 해결하기 위해 **현재 화면의 위치/전체화면의 크기** 를 통해
 
 <details markdown="1">
   <summary>📝 코드</summary>
