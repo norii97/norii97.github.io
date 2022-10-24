@@ -13,7 +13,7 @@
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Art box" %}
-                        <li><a href="/categories/Artbox/" class="">Art box ({{category[1].size}})</a></li>
+                        <li><a href="/categories/artbox/" class="">Art box ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
