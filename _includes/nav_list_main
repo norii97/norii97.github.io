@@ -13,14 +13,14 @@
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Art box" %}
-                        <li><a href="/categories/art-box/" class="">Art box ({{category[1].size}})</a></li>
+                        <li><a href="/categories/Artbox/" class="">Art box ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Pick me" %}
-                        <li><a href="/categories/Pick me/" class="">Pick me ({{category[1].size}})</a></li>
+                        <li><a href="/categories/pickme/" class="">Pick me ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
