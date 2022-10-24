@@ -3,7 +3,8 @@ layout: single
 title:  "Art box - 3. GALLERY 설계"
 categories: 
     - Art box
-tag: [Node.js, Front-end, EJS, JS, JQ, SweetAlert2 ]
+tag: 
+    - [Node.js, Front-end, EJS, JS, JQ, SweetAlert2 ]
 toc: true
 toc_sticky : true
 author_profile: true

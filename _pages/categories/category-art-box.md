@@ -1,7 +1,6 @@
-
 ---
 title: "Art box"
-permalink: categories/art-box
+permalink: /categories/art-box
 layout: archive
 author_profile: true
 sidebar_main: true

@@ -3,7 +3,8 @@ layout: single
 title:  "Pick me - 3. Backend 설계"
 categories: 
     - Pick me
-tag: [Backend, Node.js, Express, JS, JQ, DB, Mysql, Sequelize, Multer]
+tag: 
+    - [Backend, Node.js, Express, JS, JQ, DB, Mysql, Sequelize, Multer]
 toc: true
 toc_sticky : true
 author_profile: true

@@ -3,7 +3,8 @@ layout: single
 title:  "Art box - 2. GALLERY 개요"
 categories: 
     - Art box
-tag: [Node.js, Front-end, EJS, JS, JQ, SweetAlert2]
+tag: 
+  - [Node.js, Front-end, EJS, JS, JQ, SweetAlert2]
 toc: true
 toc_sticky : true
 author_profile: true

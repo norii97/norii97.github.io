@@ -3,7 +3,8 @@ layout: single
 title:  "Pick me - 7. Script 설계"
 categories: 
     - Pick me
-tag: [JS, JQ]
+tag: 
+    - [JS, JQ]
 toc: true
 toc_sticky : true
 author_profile: true
