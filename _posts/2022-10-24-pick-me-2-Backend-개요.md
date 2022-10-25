@@ -16,7 +16,7 @@ last_modified_at: 2022-10-24
 
 <br/>
 
-**Link :** [Art box](http://118.67.142.110:8000/ "Art box"){:target="_blank"}  
+**Link :** [Pick me](http://118.67.130.161:8000/ "Pick me"){:target="_blank"}  
 
 ## 목적
 &nbsp; 알고 보면 더 재미있는 예술, 하지만 예상 외로 폐쇄적이고 이론을 배우기 녹록치 않은 분야라고 느꼈다.  
@@ -67,4 +67,4 @@ Front-end 프로젝트
 
 ---
 
-**Link :** [Art box](http://118.67.142.110:8000/ "Art box"){:target="_blank"}  
+**Link :** [Pick me](http://118.67.130.161:8000/ "Pick me"){:target="_blank"}  
