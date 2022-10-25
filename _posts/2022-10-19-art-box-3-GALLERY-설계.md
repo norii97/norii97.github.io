@@ -1,5 +1,6 @@
 ---
 title:  "Art box - 3. GALLERY 설계"
+excerpt: "개인 담당 파트 GALLERY 페이지 구현 방법"
 categories: 
     - Art box
 tag: 

@@ -1,5 +1,6 @@
 ---
 title:  "Art box - 2. GALLERY 개요"
+excerpt: "개인 담당 파트 GALLERY 페이지 개요"
 categories: 
     - Art box
 tag: 
