@@ -1,6 +1,7 @@
 ---
 layout: single
 title:  "Pick me - 3. Backend 설계"
+excerpt: "개인 담당 파트 Backend 설계 방법"
 categories: 
     - Pick me
 tag: 

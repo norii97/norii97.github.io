@@ -1,6 +1,7 @@
 ---
 layout: single
-title:  "Pick me - 6. Script 개요"
+title:  "Pick me - 6. 프론트엔드 Script 개요"
+excerpt: "개인 담당 파트 프론트엔드 Script 개요"
 categories: 
     - Pick me
 tag: 
