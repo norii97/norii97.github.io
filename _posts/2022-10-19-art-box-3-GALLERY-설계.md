@@ -54,14 +54,15 @@ last_modified_at: 2022-10-21
 
 #### 1줄에 3개 씩 반복 출력
 
-출력이 되어야 할 착품의 개수 = art_list.length  
-현재 출력이 완료된 작품수 = art_count
-
-반복문과 조건문을 통해 모든 작품이 출력 될 때 까지  
+&nbsp; 반복문과 조건문을 통해 모든 작품이 출력 될 때 까지  
 한 열에 3개씩 작품을 출력.
 
-작품 - 중앙 정렬  
-작가&작품명 - 하단 고정
+- 작품 - 중앙 정렬  
+- 작가&작품명 - 하단 고정   
+
+- 출력이 되어야 할 착품의 개수 = art_list.length  
+- 현재 출력이 완료된 작품수 = art_count
+
 
 
 <details markdown="1">
@@ -121,15 +122,14 @@ function sweet_alert(get_pic_src) {
 ##### 네브바 fadein/fadeout  
 
 &nbsp; 사진을 확대시 sweetalert2 가 실행되며  
-div 태그 내부에 swal2-container 라는 클래스가 생기는 것을 확인.  
+div 태그 내부에 swal2-container 라는 클래스가 생기는 것을 확인 하였습니다.  
 
-&nbsp; eventlistener 를 통해 클릭 시에 div 태그 내부에 swal2-container 유무를 통해  
-네브바를 fadeout 해준다.
+&nbsp; eventlistener 를 통해 클릭 시에 div 태그 내부에 swal2-container 유무를 통해 네브바를 fadeout 해주었습니다.
 
-&nbsp; sweetalert2 가 사라진 이후 다시 원상 복구를 해야 한다.  
-하지만 eventlistener가 onclick에 걸려있기 때문에 클릭을 하지 않을 경우   
-navbar가 복구되지 않는 경우가 있기 때문에  
-eventlistener 에 onscroll을 추가하여 예상치 못한 상황에 대처.
+&nbsp; sweetalert2 가 사라진 이후 다시 원상 복구를 해야 하는데  
+eventlistener가 onclick에 걸려있기 때문에 클릭을 하지 않을 경우   
+navbar가 복구되지 않는 경우가 있었습니다.  
+&nbsp; eventlistener 에 onscroll을 추가하여 예상치 못한 상황에 대처 해주었습니다.
 
 <details markdown="1">
   <summary>📝 코드</summary>
@@ -164,7 +164,7 @@ function nav_fade(){
 <br/>
 
 &nbsp; 위 두 개는 bootstrap - scrollspy 사용법에 나온대로 속성을 추가해 주고  
-id를 타겟팅 해 주면 자동으로 작동 하였다.
+id를 타겟팅 해 주면 정상 작동 했습니다.
 
 <details markdown="1">
   <summary>📝 코드</summary>
@@ -214,12 +214,12 @@ id를 타겟팅 해 주면 자동으로 작동 하였다.
 
 ##### 해당 시대에 맞게 스크롤 바 상하 이동
 
-&nbsp; 현재 화면의 위치해 있는 시대에 맞춰 scrollspy의 시대가 이동은 하지만 스크롤을 해주지는 않아 시대가 보이지 않는 경우가 있다.  
+&nbsp; 현재 화면의 위치해 있는 시대에 맞춰 scrollspy의 시대가 이동은 하지만 scrollspy의 스크롤은 상하로 움직이지 않았습니다.  
 <br/>
-&nbsp; 이를 해결하기 위해 **현재 화면의 눂이/전체화면의 높이** 를 통해 퍼센테이지를 구하고 scrollspy의 스크롤 위치를 퍼센테이지에 맞춰 주면 해결이 될 거라 생각을 했지만   
-&nbsp; scroll 이벤트가 중복 발생 할 경우 동기처리 때문인지 제대로 작동하지 않는 경우 발생.  
+&nbsp; 이를 해결하기 위해 **현재 화면의 눂이/전체화면의 높이** 를 통해 퍼센테이지를 구하여 scrollspy의 스크롤 위치를 퍼센테이지에 맞춰 주면 해결이 될 거라 생각을 했습니다.   
+&nbsp; 하지만 scroll 이벤트가 중복 발생 할 경우 동기처리 때문인지 제대로 작동하지 않는 경우 발생하였습니다.  
 <br/>
-&nbsp; 또 다시 이를 해결하기 위해 나온 방법으로 scrollspy 내부 컨텐츠의 양이 많지 않기 때문에 **현재 화면의 눂이/전체화면의 높이** 가 50% 를 기점으로 scrollspy의 스크롤을 최하단 최상단으로 옮겨주는 것으로 해결 하였다.
+&nbsp; 또 다시 이를 해결하기 위해 scrollspy 내부 컨텐츠의 양이 많지 않으니 **현재 화면의 눂이/전체화면의 높이** 50% 를 기점으로 scrollspy의 스크롤을 최하단 최상단으로 옮겨주는 것으로 해결 하였습니다.
 
 <details markdown="1">
   <summary>📝 코드</summary>
