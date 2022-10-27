@@ -27,7 +27,7 @@ last_modified_at: 2022-10-21
 >> - 네브바 fadein/fadeout <a class="header-link" href="#네브바-fadeinfadeout" title="Permalink"><span class="sr-only">Permalink</span><i class="fas fa-link"></i></a>
 2. 사이드바 ( Bootstrap - scrollspy ) <a class="header-link" href="#사이드바--bootstrap---scrollspy-" title="Permalink"><span class="sr-only">Permalink</span><i class="fas fa-link"></i></a>
 > - 작품과 시대 매칭 <a class="header-link" href="#작품과-시대-매칭" title="Permalink"><span class="sr-only">Permalink</span><i class="fas fa-link"></i></a>
-> - 시대 클릭 시 해당 작품으로 이동 <a class="header-link" href="#시대-클릭 시-해당-작품으로-이동" title="Permalink"><span class="sr-only">Permalink</span><i class="fas fa-link"></i></a>
+> - 타임라인 클릭 시 해당 작품으로 이동 <a class="header-link" href="#타임라인-클릭-시-해당-작품으로-이동" title="Permalink"><span class="sr-only">Permalink</span><i class="fas fa-link"></i></a>
 > - 해당 시대에 맞게 스크롤 바 상하 이동 <a class="header-link" href="#해당-시대에-맞게-스크롤-바-상하-이동" title="Permalink"><span class="sr-only">Permalink</span><i class="fas fa-link"></i></a>
 
 ---
@@ -98,7 +98,7 @@ last_modified_at: 2022-10-21
 
 ##### SweetAlert2 로 작품 확대 및 설명 출력
 
-onclick 이벤트를 통해 함수를 호출하여 sweetalert2 실행
+onclick 이벤트를 통해 함수를 호출하여 sweetalert2 실행 하였습니다.
 
 <details markdown="1">
   <summary>📝 코드</summary>
@@ -129,6 +129,7 @@ div 태그 내부에 swal2-container 라는 클래스가 생기는 것을 확인
 &nbsp; sweetalert2 가 사라진 이후 다시 원상 복구를 해야 하는데  
 eventlistener가 onclick에 걸려있기 때문에 클릭을 하지 않을 경우   
 navbar가 복구되지 않는 경우가 있었습니다.  
+<br />
 &nbsp; eventlistener 에 onscroll을 추가하여 예상치 못한 상황에 대처 해주었습니다.
 
 <details markdown="1">
@@ -159,7 +160,7 @@ function nav_fade(){
 ---
 
 ##### 작품과 시대 매칭
-##### 시대 클릭 시 해당 작품으로 이동
+##### 타임라인 클릭 시 해당 작품으로 이동
 
 <br/>
 
