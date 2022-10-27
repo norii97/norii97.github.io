@@ -17,15 +17,15 @@ last_modified_at: 2022-10-24
 
 <br/>
 
-**Link :** [Pick me](http://118.67.130.161:8000/ "Pick me"){:target="_blank"}  
+**💡 Link :** [Pick me](http://118.67.130.161:8000/ "Pick me"){:target="_blank"}  
 
-## 목적
+## 🤷🏻 목적
 &nbsp; 알고 보면 더 재미있는 예술, 하지만 예상 외로 폐쇄적이고 이론을 배우기 녹록치 않은 분야라고 느꼈다.  
 <br/>
 &nbsp; 이를 해결하기 위해 각 시대에 해당되는 미술품을 보여주고, 미술 관련 전시 및 뉴스를 보여주어 예술에 관심이 있고 좋아하는 사람들의 편의를 위해 만들었다.
 
 ---
-## 공부 내용
+## 📚 공부 내용
 **[ Node.js, EJS, Bootstrap, JS, JQ ]**  
 
 Front-end 프로젝트
@@ -68,4 +68,4 @@ Front-end 프로젝트
 
 ---
 
-**Link :** [Pick me](http://118.67.130.161:8000/ "Pick me"){:target="_blank"}  
+**💡 Link :** [Pick me](http://118.67.130.161:8000/ "Pick me"){:target="_blank"}  

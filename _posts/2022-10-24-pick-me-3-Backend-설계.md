@@ -15,7 +15,7 @@ date: 2022-10-24
 last_modified_at: 2022-10-24
 ---
 
-**Link :** [Pick me](http://118.67.130.161:8000/ "Pick me"){:target="_blank"}  
+**💡 Link :** [Pick me](http://118.67.130.161:8000/ "Pick me"){:target="_blank"}  
 
 ### 개요
 #### 순서
@@ -33,7 +33,7 @@ last_modified_at: 2022-10-24
 
 ---
 
-#### 구조
+#### 🛟 구조
 > - 작품이 출력되는 공간  
 >> 열 ( ROW )  
 >>> 열 3 등분  
@@ -253,4 +253,4 @@ window.addEventListener("scroll", (event) => {
 
 ---
 
-**Link :** [Pick me](http://118.67.130.161:8000/ "Pick me"){:target="_blank"}  
+**💡 Link :** [Pick me](http://118.67.130.161:8000/ "Pick me"){:target="_blank"}  

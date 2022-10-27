@@ -14,7 +14,7 @@ date: 2022-10-19
 last_modified_at: 2022-10-21
 ---
 
-**Link :** [Art box - Gallery](http://118.67.142.110:8000/show_data "Art box - Gallery"){:target="_blank"}  
+**💡 Link :** [Art box - Gallery](http://118.67.142.110:8000/show_data "Art box - Gallery"){:target="_blank"}  
 
 ### 개요
 #### 순서
@@ -32,7 +32,7 @@ last_modified_at: 2022-10-21
 
 ---
 
-#### 구조
+#### 🛟 구조
 > - 작품이 출력되는 공간  
 >> 열 ( ROW )  
 >>> 열 3 등분  
@@ -259,4 +259,4 @@ window.addEventListener("scroll", (event) => {
 
 ---
 
-**Link :** [Art box - Gallery](http://118.67.142.110:8000/show_data "Art box - Gallery"){:target="_blank"}  
+**💡 Link :** [Art box - Gallery](http://118.67.142.110:8000/show_data "Art box - Gallery"){:target="_blank"}  
