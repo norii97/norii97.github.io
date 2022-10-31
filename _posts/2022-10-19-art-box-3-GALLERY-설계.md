@@ -1,6 +1,6 @@
 ---
 title:  "Art box - 3. GALLERY 설계"
-excerpt: "개인 담당 파트 GALLERY 페이지 구현 방법"
+excerpt: "담당 파트 GALLERY 페이지 구현 방법"
 categories: 
     - Art box
 tag: 
@@ -16,8 +16,8 @@ last_modified_at: 2022-10-21
 
 **💡 Link :** [Art box - Gallery](http://118.67.142.110:8000/show_data "Art box - Gallery"){:target="_blank"}  
 
-### 개요
-#### 순서
+### - 개요
+#### 🎲 순서
 
 1. 작품 출력 <a class="header-link" href="#작품-출력" title="Permalink"><span class="sr-only">Permalink</span><i class="fas fa-link"></i></a>
 > - 1줄에 3개 씩 반복 출력<a class="header-link" href="#1줄에-3개-씩-반복-출력" title="Permalink"><span class="sr-only">Permalink</span><i class="fas fa-link"></i></a>
@@ -34,8 +34,8 @@ last_modified_at: 2022-10-21
 
 #### 🛟 구조
 > - 작품이 출력되는 공간  
->> 열 ( ROW )  
->>> 열 3 등분  
+>> 행 ( ROW )  
+>>> 행 3 등분  
 >>>> - 작품  
 >>>> - 작가명, 작품명
 >
@@ -47,7 +47,7 @@ last_modified_at: 2022-10-21
 
 ---
 
-### 작품 출력
+### - 작품 출력
 
 
 ---
@@ -55,7 +55,7 @@ last_modified_at: 2022-10-21
 #### 1줄에 3개 씩 반복 출력
 
 &nbsp; 반복문과 조건문을 통해 모든 작품이 출력 될 때 까지  
-한 열에 3개씩 작품을 출력.
+한 열에 3개씩 작품을 출력 했습니다.
 
 - 작품 - 중앙 정렬  
 - 작가&작품명 - 하단 고정   
@@ -155,7 +155,7 @@ function nav_fade(){
 
 ---
 
-### 사이드바 ( Bootstrap - scrollspy )
+### - 사이드바 ( Bootstrap - scrollspy )
 
 ---
 
@@ -217,10 +217,10 @@ id를 타겟팅 해 주면 정상 작동 했습니다.
 
 &nbsp; 현재 화면의 위치해 있는 시대에 맞춰 scrollspy의 시대가 이동은 하지만 scrollspy의 스크롤은 상하로 움직이지 않았습니다.  
 <br/>
-&nbsp; 이를 해결하기 위해 **현재 화면의 눂이/전체화면의 높이** 를 통해 퍼센테이지를 구하여 scrollspy의 스크롤 위치를 퍼센테이지에 맞춰 주면 해결이 될 거라 생각을 했습니다.   
+&nbsp; 이를 해결하기 위해 **현재 화면의 높이/전체화면의 높이** 를 통해 퍼센테이지를 구하여 scrollspy의 스크롤 위치를 퍼센테이지에 맞춰 주면 해결이 될 거라 생각을 했습니다.   
 &nbsp; 하지만 scroll 이벤트가 중복 발생 할 경우 동기처리 때문인지 제대로 작동하지 않는 경우 발생하였습니다.  
 <br/>
-&nbsp; 또 다시 이를 해결하기 위해 scrollspy 내부 컨텐츠의 양이 많지 않으니 **현재 화면의 눂이/전체화면의 높이** 50% 를 기점으로 scrollspy의 스크롤을 최하단 최상단으로 옮겨주는 것으로 해결 하였습니다.
+&nbsp; 또 다시 이를 해결하기 위해 scrollspy 내부 컨텐츠의 양이 많지 않으니 **현재 화면의 높이/전체화면의 높이** 50% 를 기점으로 scrollspy의 스크롤을 최하단 최상단으로 옮겨주는 것으로 해결 하였습니다.
 
 <details markdown="1">
   <summary>📝 코드</summary>
