@@ -1,6 +1,6 @@
 ---
-title:  "Art box - 3. GALLERY 설계"
-excerpt: "담당 파트 GALLERY 페이지 구현 방법"
+title:  "Art box) 3. GALLERY 구현"
+excerpt: "담당 파트) GALLERY 페이지 구현"
 categories: 
     - Art box
 tag: 
@@ -16,46 +16,46 @@ last_modified_at: 2022-10-21
 
 **💡 Link :** [Art box - Gallery](http://118.67.142.110:8000/show_data "Art box - Gallery"){:target="_blank"}  
 
-### - 개요
-#### 🎲 순서
+### 🎲 목차
 
 1. 작품 출력 <a class="header-link" href="#작품-출력" title="Permalink"><span class="sr-only">Permalink</span><i class="fas fa-link"></i></a>
-> - 1줄에 3개 씩 반복 출력<a class="header-link" href="#1줄에-3개-씩-반복-출력" title="Permalink"><span class="sr-only">Permalink</span><i class="fas fa-link"></i></a>
-> - 작품 클릭 시 <a class="header-link" href="#작품-클릭-시" title="Permalink"><span class="sr-only">Permalink</span><i class="fas fa-link"></i></a>
->> - SweetAlert2 로 작품 확대 및 설명 출력<a class="header-link" href="#sweetalert2-로-작품-확대-및-설명-출력" title="Permalink"><span class="sr-only">Permalink</span><i class="fas fa-link"></i></a>  
->> - 작품 설명 출력 <a class="header-link" href="#작품-설명-출력" title="Permalink"><span class="sr-only">Permalink</span><i class="fas fa-link"></i></a> 
->> - 네브바 fadein/fadeout <a class="header-link" href="#네브바-fadeinfadeout" title="Permalink"><span class="sr-only">Permalink</span><i class="fas fa-link"></i></a>
+    - 3열 종대<a class="header-link" href="#--3열-종대" title="Permalink"><span class="sr-only">Permalink</span><i class="fas fa-link"></i></a>
+    - onclick <a class="header-link" href="#onclick" title="Permalink"><span class="sr-only">Permalink</span><i class="fas fa-link"></i></a>
+        - SweetAlert2 로 작품 확대 및 설명 출력<a class="header-link" href="#--sweetalert2-로-작품-확대-및-설명-출력" title="Permalink"><span class="sr-only">Permalink</span><i class="fas fa-link"></i></a>  
+        - 작품 출력 <a class="header-link" href="#작품-출력" title="Permalink"><span class="sr-only">Permalink</span><i class="fas fa-link"></i></a> 
+        - 네브바 fadein/fadeout <a class="header-link" href="#--네브바-fadeinfadeout" title="Permalink"><span class="sr-only">Permalink</span><i class="fas fa-link"></i></a>
 2. 사이드바 ( Bootstrap - scrollspy ) <a class="header-link" href="#사이드바--bootstrap---scrollspy-" title="Permalink"><span class="sr-only">Permalink</span><i class="fas fa-link"></i></a>
-> - 작품과 시대 매칭 <a class="header-link" href="#작품과-시대-매칭" title="Permalink"><span class="sr-only">Permalink</span><i class="fas fa-link"></i></a>
-> - 타임라인 클릭 시 해당 작품으로 이동 <a class="header-link" href="#타임라인-클릭-시-해당-작품으로-이동" title="Permalink"><span class="sr-only">Permalink</span><i class="fas fa-link"></i></a>
-> - 해당 시대에 맞게 스크롤 바 상하 이동 <a class="header-link" href="#해당-시대에-맞게-스크롤-바-상하-이동" title="Permalink"><span class="sr-only">Permalink</span><i class="fas fa-link"></i></a>
+    - 작품과 시대 매칭 <a class="header-link" href="#--작품과-시대-매칭" title="Permalink"><span class="sr-only">Permalink</span><i class="fas fa-link"></i></a>
+    - 타임라인 클릭 시 해당 작품으로 이동 <a class="header-link" href="#--타임라인-클릭-시-해당-작품으로-이동" title="Permalink"><span class="sr-only">Permalink</span><i class="fas fa-link"></i></a>
+    - 해당 시대에 맞게 스크롤 바 상하 이동 <a class="header-link" href="#--해당-시대에-맞게-스크롤-바-상하-이동" title="Permalink"><span class="sr-only">Perma  link</span><i class="fas fa-link"></i></a>
 
 ---
 
-#### 🛟 구조
-> - 작품이 출력되는 공간  
->> 행 ( ROW )  
->>> 행 3 등분  
->>>> - 작품  
->>>> - 작가명, 작품명
->
-> - 사이드 바 공간  
->> 연대  
->>> 시대  
+### 🛟 페이지 구조
+
+- 작품 출력  
+    - 3열 종대
+        - 작품
+        - 작가명 & 작품명
+
+- 사이드 바  
+    - 연대  
+    - 시대  
 
 ![print3](/videos/frame.gif)
 
 ---
 
-### - 작품 출력
+### ⚽️ 구현
+#### 작품 출력
 
 
 ---
 
-#### 1줄에 3개 씩 반복 출력
+##### - 3열 종대
 
 &nbsp; 반복문과 조건문을 통해 모든 작품이 출력 될 때 까지  
-한 열에 3개씩 작품을 출력 했습니다.
+한 행에 3개씩 작품을 출력 했습니다.
 
 - 작품 - 중앙 정렬  
 - 작가&작품명 - 하단 고정   
@@ -92,11 +92,11 @@ last_modified_at: 2022-10-21
 
 ---
 
-#### 작품 클릭 시
+#### onclick
 
 ---
 
-##### SweetAlert2 로 작품 확대 및 설명 출력
+##### - SweetAlert2 로 작품 확대 및 설명 출력
 
 onclick 이벤트를 통해 함수를 호출하여 sweetalert2 실행 하였습니다.
 
@@ -119,7 +119,7 @@ function sweet_alert(get_pic_src) {
 
 ---
 
-##### 네브바 fadein/fadeout  
+##### - 네브바 fadein/fadeout  
 
 &nbsp; 사진을 확대시 sweetalert2 가 실행되며  
 div 태그 내부에 swal2-container 라는 클래스가 생기는 것을 확인 하였습니다.  
@@ -155,12 +155,12 @@ function nav_fade(){
 
 ---
 
-### - 사이드바 ( Bootstrap - scrollspy )
+####  사이드바 ( Bootstrap - scrollspy )
 
 ---
 
-##### 작품과 시대 매칭
-##### 타임라인 클릭 시 해당 작품으로 이동
+##### - 작품과 시대 매칭
+##### - 타임라인 클릭 시 해당 작품으로 이동
 
 <br/>
 
@@ -213,7 +213,7 @@ id를 타겟팅 해 주면 정상 작동 했습니다.
 
 ---
 
-##### 해당 시대에 맞게 스크롤 바 상하 이동
+##### - 해당 시대에 맞게 스크롤 바 상하 이동
 
 &nbsp; 현재 화면의 위치해 있는 시대에 맞춰 scrollspy의 시대가 이동은 하지만 scrollspy의 스크롤은 상하로 움직이지 않았습니다.  
 <br/>
