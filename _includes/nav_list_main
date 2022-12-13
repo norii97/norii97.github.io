@@ -5,9 +5,8 @@
     <label for="ac-toc">{{ site.data.ui-text[site.locale].menu_label }}</label>
     <ul class="nav__items" id="category_tag_menu">
         <li>
-            📂 <span style="font-family:'Cafe24Oneprettynight';">전체 글 수</style> <span
-                    style="font-family:'Coming Soon';">{{sum}}</style> <span
-                        style="font-family:'Cafe24Oneprettynight';">개</style>
+            <span style="font-family:'Cafe24Oneprettynight';font-size: 17px;">📍 Post Counter</style> <span
+                    style="font-family:'Coming Soon';">: {{sum}}</style>
         </li>
         <li>
             <span class="nav__sub-title"> Project </span>
