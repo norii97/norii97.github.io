@@ -104,18 +104,18 @@ analytics:
 
 # Site Author
 author:
-  name             : "No"
+  name             : "sangsunNo"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "뇌장하드"
   location         : "South Korea"
   email            : 
   links:
-    - label: "Email"
+    - label: "nnsangsun@gmail.com"
       icon: "fas fa-fw fa-envelope-square"
       # url: "mailto:your.name@email.com"
     - label: "GitHub"
-      icon: "https://github.com/norii97"
-      # url: "https://github.com/"
+      icon: "https://github.com/sangsunNo"
+      url: "https://github.com/sangsunNo"
     # - label: "Instagram"
     #   icon: "fab fa-fw fa-instagram"
     #   # url: "https://instagram.com/"
@@ -125,7 +125,7 @@ footer:
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/norii97"
+      url: "https://github.com/sangsunNo"
     # - label: "Instagram"
     #   icon: "fab fa-fw fa-instagram"
     #   # url:
