@@ -104,9 +104,9 @@ analytics:
 
 # Site Author
 author:
-  name             : "sangsunNo"
+  name             : "No SangSun"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "기억된 정보는 휘발성이다"
+  bio              : " "
   location         : "South Korea"
   email            : "nnsangsun@gmail.com"
   links:
